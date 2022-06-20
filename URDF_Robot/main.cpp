@@ -29,7 +29,7 @@ int main()
 
     const int n = 7;
 
-    Robot<n>* robot;
+    Robot<n>* robot = new Robot<n>();
     robot->Initialize();
 
     std::vector<Symb> independentValue = {-1, -0.23, 0.43, 0.32, 0, 0, 0, 0, 1, 1, 1, 2.5, 1, 1, 1.3};
